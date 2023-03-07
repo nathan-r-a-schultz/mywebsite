@@ -1,3 +1,13 @@
 body {
   font-family: Georgia, serif;
+  background-color:powderblue;
+  /*color:rgb(0, 255, 64);*/
+}
+
+p {
+  color:brown;
+}
+
+#inline {
+  display: inline;
 }
