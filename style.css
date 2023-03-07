@@ -4,6 +4,11 @@ body {
   /*color:rgb(0, 255, 64);*/
 }
 
+h1 {
+  text-align: center;
+  text-shadow: 2px 2px 5px blue;
+}
+
 p {
   color:brown;
 }
