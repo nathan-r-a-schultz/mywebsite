@@ -1,3 +1,3 @@
-# nathanschultz.net
+# nathanschultz.com
 
-This is just a site for me to put whatever I want on it. That's all.
+This is my website where I will eventually host information on my projects, my work experience, and information about myself. Still very much a work in progress.
