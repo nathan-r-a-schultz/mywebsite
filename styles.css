@@ -1,7 +1,27 @@
+:root {
+    --default-left-margin: 50px;
+}
+
+h1 {
+    margin-left: calc(var(--default-left-margin) + 40px);
+    color: rgba(1,1,1,1);
+}
+
 .list {
     margin-top: 100px;
     margin-bottom: 100px;
-    color: rgba(1,1,1,0.7);
+    color: rgba(1,1,1,1);
+}
+
+.yellow-rectangle {
+    position: fixed;
+    left: 95px;
+    top: 0;
+    bottom: 0;
+    width: 450px;
+    background-color: yellow;
+    z-index: -1;
+    pointer-events: none;
 }
 
 .list li {
@@ -9,9 +29,20 @@
     font-weight: bold;
     font-size: 4em;
     transition: 250ms;
+    position: relative;
+    width: fit-content;
+    left: var(--default-left-margin);
 }
 
 .list li:hover {
     font-size:88px;
     font-size-adjust: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
 }
